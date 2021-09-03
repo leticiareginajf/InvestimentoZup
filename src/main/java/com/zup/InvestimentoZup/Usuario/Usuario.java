@@ -1,6 +1,13 @@
 package com.zup.InvestimentoZup.Usuario;
 
+import javax.persistence.Entity;
+import javax.persistence.Table;
+
+/*@Entity
+@Table(name = "usuario")
+*/
 public class Usuario {
+
 
     private String nome;
     private String email;
