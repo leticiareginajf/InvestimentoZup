@@ -12,6 +12,7 @@ public class Usuario {
     private String nome;
     private String email;
     private String telefone;
+    private Double valor;
 
     public Usuario(){
 
@@ -53,5 +54,13 @@ public class Usuario {
     public void setTelefone(String telefone) {
 
         this.telefone = telefone;
+    }
+
+    public Double getValor() {
+        return valor;
+    }
+
+    public void setValor(Double valor) {
+        this.valor = valor;
     }
 }
