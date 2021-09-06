@@ -7,6 +7,6 @@ import java.util.List;
 
 public interface Repository extends CrudRepository<Usuario, String> {
 
-    List<Usuario> findByNomeUsuario(String letras);
+
 
 }

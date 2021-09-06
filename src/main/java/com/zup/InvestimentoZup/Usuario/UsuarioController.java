@@ -12,20 +12,20 @@ import java.util.List;
 public class UsuarioController {
 
     @Autowired
-    public UsuarioService usuarioService;
+    public UsuarioService user;
 
 
     @RequestMapping(method = RequestMethod.POST)
     @ResponseStatus(HttpStatus.CREATED)
     public Usuario cadastrarUsuario(@RequestBody @Valid Usuario usuario){
-        return usuarioService.salvarUsuario(usuario);
+        return user.salvarUsuario(usuario);
     }
 
 
     @GetMapping
     public List<Usuario> exibirUsuario(){
 
-        return usuarioService.exibirUsuario();
+        return user.exibirUsuario();
     }
 
 }
