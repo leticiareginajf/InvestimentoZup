@@ -7,6 +7,8 @@ public class UsuarioDTO {
     private String nome;
     private String sobrenome;
     private String email;
+    private double valor;
+    private String mes;
 
 
     public UsuarioDTO(){
@@ -50,5 +52,21 @@ public class UsuarioDTO {
     public void setEmail(String email) {
 
         this.email = email;
+    }
+
+    public double getValor() {
+        return valor;
+    }
+
+    public void setValor(double valor) {
+        this.valor = valor;
+    }
+
+    public String getMes() {
+        return mes;
+    }
+
+    public void setMes(String mes) {
+        this.mes = mes;
     }
 }

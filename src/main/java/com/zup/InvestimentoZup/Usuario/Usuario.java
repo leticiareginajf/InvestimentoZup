@@ -13,6 +13,7 @@ public class Usuario {
     private String email;
     private String telefone;
     private Double valor;
+    private String mes;
 
     public Usuario(){
 
@@ -62,5 +63,13 @@ public class Usuario {
 
     public void setValor(Double valor) {
         this.valor = valor;
+    }
+
+    public String getMes() {
+        return mes;
+    }
+
+    public void setMes(String mes) {
+        this.mes = mes;
     }
 }
